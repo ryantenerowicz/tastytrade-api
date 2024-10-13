@@ -1,0 +1,31 @@
+name: py311-ttapi
+channels:
+  - defaults
+dependencies:
+  - ca-certificates
+  - libcxx
+  - libffi
+  - ncurses
+  - openssl
+  - pip
+  - python=3.11
+  - readline
+  - setuptools
+  - sqlite
+  - tk
+  - wheel
+  - xz
+  - zlib
+  - pip:
+      - pandas==1.5.3
+      - numpy==1.23.5
+      - python-dateutil==2.8.2
+      - pytz==2022.7.1
+      - urllib3==1.26.16
+      - requests==2.32.3
+      
+      - pytest==8.2.2
+      - altair==5.3.0
+      - polars==1.8.2
+      - python-dotenv==1.0.1
+prefix: /opt/miniconda3/envs/py311-ttapi

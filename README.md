@@ -49,6 +49,12 @@ else:
 
 ## Development
 
+To install the conda environemt, navigate to the repo and run:
+
+```bash
+conda env create --file environment.yml
+```
+
 To run tests, first install the required development packages:
 
 ```bash
